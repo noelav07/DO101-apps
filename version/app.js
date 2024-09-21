@@ -3,6 +3,8 @@ app = express();
 
 var response;
 
+var var2; 
+
 app.get('/', function (req, res) {
 
     response = 'This is version 2 of the app.' + '\n';
